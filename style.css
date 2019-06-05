@@ -1,0 +1,1055 @@
+/* Body
+------------------------------------- */
+body {
+		background: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    position: relative;
+		margin: 0 auto;
+}
+
+html,body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 100%;
+}
+
+
+/* Typography
+------------------------------------- */
+
+h1,h3,h4 {
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  /* text-transform: uppercase; */
+}
+
+h1 {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: #444;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #444;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+h5 {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+p {
+  color: #444;
+  font-size: 16px;
+  line-height: 28px;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+a,
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -ms-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+b {
+	color: #262626;
+	font-weight: 400;
+}
+
+li{
+	color: #777;
+	font-size: 16px;
+	line-height: 28px;
+	word-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+/* preloader styles
+/* ========================================== */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.test {
+	height: 150px;
+	background: skyblue;
+}
+
+.sk-spinner-pulse {
+  width: 60px;
+  height: 60px;
+  background-color: #111112;
+  border-radius: 100%;
+  -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+          animation: sk-pulseScaleOut 1s infinite ease-in-out; }
+
+@-webkit-keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+@keyframes sk-pulseScaleOut {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0); }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0; } }
+
+
+
+/* navigation styles
+/* ========================================== */
+.nav-container,
+nav {
+  overflow: visible;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+nav {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+nav a {
+  color: #333333;
+}
+
+.navbar {
+  /* background: transparent; */
+  height: 94px;
+  max-height: 94px;
+	/* margin-bottom: 94px; */
+  border-radius: 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+	background: #ffffff;
+	width: 100vw;
+	/* opacity: .8; */
+}
+
+
+.brand {
+  float: left;
+  padding: 30px 0 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+.brand a {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.brand a, li {
+	position: relative;
+	bottom: 15px;
+}
+
+.brand a {
+	positon: relative;
+	bottom: 9px;
+}
+
+.brand img,a {
+	padding-left: 20px;
+}
+
+
+.brand img {
+	width: 70px;
+	position: relative;
+	bottom: 10px;
+}
+
+.move-up {
+	/* position: relative; */
+	/* bottom: 15px; */
+}
+
+.navicon {
+  position: relative;
+  right: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 20px 0 0;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav ul.right {
+  float: right;
+  right: 0
+}
+
+#nav-menu   {
+	float: right;
+  padding: 30px 0 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+#nav-menu li {
+	display: inline-block;
+	margin: 4px;
+	padding-right: 20px;
+
+}
+
+#nav-menu li a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 8px 17px;
+    margin-right: 2px;
+    margin-left: 2px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+		border-radius: 7px;
+}
+
+#nav-menu li a:active {
+  background: #111112 !important;
+}
+
+#nav-menu li a:hover,
+#nav-menu li a:focus {
+	background: #79CCD3;
+  color: #ffffff;
+	border-radius: 7px;
+
+}
+
+
+
+.hover-box div:hover {
+	/* background: #CDCDCD; */
+	/* background: #CDCDCD; */
+	/* color: #ffffff; */
+	/* visibility: visible; */
+	/* opacity: 1; */
+  /* transition: all 0.4s ease-in-out; */
+	/* transition: .4s;
+	-webkit-transition-timing-function: ease-in-out; */
+}
+.hover-image-lv div:hover {
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Louis Vuitton-Platform-UIDesign-Homepage-Black.png') no-repeat;
+	/* filter: grayscale(.9); */
+	background-size: cover;
+}
+
+.hover-image-lv div:hover h3 {
+	color: white;
+}
+
+.hover-image-lv div:hover h4 {
+	color: white;
+}
+
+
+.hover-image-waze div:hover {
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Waze-NavigationApp-UIDesign-Homepage-black.png') no-repeat;
+	/* filter: grayscale(.9); */
+	background-size: cover;
+}
+
+.hover-image-waze div:hover h3 {
+	color: white;
+}
+
+.hover-image-waze div:hover h4 {
+	color: white;
+}
+
+.hover-image-organicfoods div:hover {
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/OrganicFoods-Health-UIDesign-Homepage-black.png') no-repeat;
+	/* filter: grayscale(.9); */
+	background-size: cover;
+}
+
+.hover-image-organicfoods div:hover h3 {
+	color: white;
+}
+
+.hover-image-organicfoods div:hover h4 {
+	color: white;
+}
+
+.hover-box {
+	transition: .4s;
+}
+
+.hover-image-rakastella div:hover {
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Rakastella-Event-UIDesign-Homepage-Black.png') no-repeat;
+	/* filter: grayscale(.9); */
+	background-size: cover;
+}
+
+.hover-image-rakastella div:hover h3 {
+	color: white;
+}
+
+.hover-image-rakastella div:hover h4 {
+	color: white;
+}
+
+.hover-image-mode div:hover {
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Mode-Editorial-UIDesign-Homepage-black.png') no-repeat;
+	/* filter: grayscale(.9); */
+	background-size: cover;
+}
+
+.hover-image-mode div:hover h3 {
+	color: white;
+}
+
+.hover-image-mode div:hover h4 {
+	color: white;
+}
+
+.nav-text-light a {
+  color: #ffffff;
+}
+
+.hover-image-redbike div:hover {
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Redbike-Ecommerce-UIDesign-Homepage-Black.png') no-repeat;
+	/* filter: grayscale(.9); */
+	background-size: cover;
+}
+
+.hover-image-redbike div:hover h3 {
+	color: white;
+}
+
+.hover-image-redbike div:hover h4 {
+	color: white;
+}
+
+.hover-image-smartpeople div:hover {
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Smartpeople-Platform-UIDesign-Homepage-Black.png') no-repeat;
+	/* filter: grayscale(.9); */
+	background-size: cover;
+}
+
+.hover-image-smartpeople div:hover h3 {
+	color: white;
+}
+
+.hover-image-smartpeople div:hover h4 {
+	color: white;
+}
+
+@media all and (max-width: 990px) {
+  .nav-text-light a {
+    color: #555555;
+  }
+  .nav-inner {
+    background: #ffffff;
+  }
+  .transparent {
+    background: transparent;
+  }
+  .navicon {
+    padding-right: 10px;
+  }
+  nav ul.right {
+  float: left;
+  }
+}
+
+a.icon {
+  font-size: 32px;
+  padding-right: 20px;
+}
+
+.intro-inner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+}
+
+/* header section styles
+/* ========================================== */
+#header {
+  -webkit-background-size: auto;
+  /* background-size: cover; */
+  background-position: center;
+  text-align: center;
+  padding-top: 130px;
+	padding-bottom: 130px;
+  /* padding-bottom: 100px; */
+	background: url('./images/Homepage-Banner.png') no-repeat;
+	background-size: cover;
+	/* display: flex;
+	justify-content: center; */
+}
+
+#banner-waze {
+  -webkit-background-size: auto;
+  /* background-size: cover; */
+  background-position: center;
+  text-align: center;
+  padding-top: 130px;
+	padding-bottom: 130px;
+	display: flex;
+	justify-content: center;
+  /* padding-bottom: 100px; */
+	background: url('./images/Waze-NavigationApp-UIDesign-Banner1.png') no-repeat;
+	background-size: cover;
+	/* display: flex;
+	justify-content: center; */
+}
+
+#banner-redbike {
+  -webkit-background-size: auto;
+  /* background-size: cover; */
+  background-position: center;
+  text-align: center;
+  padding-top: 130px;
+	padding-bottom: 130px;
+  /* padding-bottom: 100px; */
+	background: url('./images/Redbike-Ecommerce-UIDesign-Banner.png') no-repeat;
+	background-size: cover;
+	/* display: flex;
+	justify-content: center; */
+}
+
+#banner-organicfoods {
+  -webkit-background-size: auto;
+  /* background-size: cover; */
+  background-position: center;
+  text-align: center;
+  padding-top: 130px;
+	padding-bottom: 130px;
+  /* padding-bottom: 100px; */
+	background: url('./images/OrganicFoods-Health-UIDesign-Banner.png') no-repeat;
+	background-size: cover;
+	/* display: flex;
+	justify-content: center; */
+}
+
+#banner-mode {
+  -webkit-background-size: auto;
+  /* background-size: cover; */
+  background-position: center;
+  text-align: center;
+  padding-top: 130px;
+	padding-bottom: 130px;
+  /* padding-bottom: 100px; */
+	background: url('./images/Mode-Editorial-UIDesign-Banner.jpeg') no-repeat;
+	background-size: cover;
+	/* display: flex;
+	justify-content: center; */
+}
+
+
+.expand-header {
+	height: 500px !important;
+}
+
+.header-thumb {
+  background: #ffffff;
+	opacity: .7;
+  border: 10px solid #f9f9f9;
+  padding: 62px 20px 62px 20px;
+	width: 44vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	border-radius: 13px;
+}
+
+.waze-header-thumb {
+  background: #ffffff;
+	opacity: .7;
+  border: 10px solid #f9f9f9;
+  padding: 62px 20px 62px 20px;
+	width: 44vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 100px;
+	border-radius: 13px;
+}
+
+.prod-title{
+	background: #F8F8F8;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: .4s;
+}
+
+.waze-prod-title{
+	background: #F8F8F8;
+	/* color: transparent; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Waze-NavigationApp-UIDesign-Homepage.png') no-repeat;
+	background-size: cover;
+}
+
+
+.waze-prod-title div:hover h3 {
+	opacity: 0;
+}
+
+.waze-prod-title div:hover h4 {
+	opacity: 0
+}
+
+.rakastella-prod-title{
+	background: #F8F8F8;
+	/* color: transparent; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Rakastella-Event-UIDesign-Homepage.png') no-repeat;
+	background-size: cover;
+}
+
+
+.organicfoods-prod-title{
+	background: #F8F8F8;
+	/* color: transparent; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/OrganicFoods-Health-UIDesign-Homepage.png') no-repeat;
+	background-size: cover;
+}
+
+.mode-prod-title{
+	background: #F8F8F8;
+	/* color: transparent; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Mode-Editorial-UIDesign-Homepage.png') no-repeat;
+	background-size: cover;
+}
+
+.redbike-prod-title{
+	background: #F8F8F8;
+	/* color: transparent; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Redbike-Ecommerce-UIDesign-Homepage.png') no-repeat;
+	background-size: cover;
+}
+
+.smartpeople-prod-title{
+	background: #F8F8F8;
+	/* color: transparent; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Smartpeople-Platform-UIDesign-Homepage.png') no-repeat;
+	background-size: cover;
+}
+
+.lv-prod-title{
+	background: #F8F8F8;
+	/* color: transparent; */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 13px;
+	padding: 150px 45px 150px 45px;
+	transition: 1s;
+	background: url('./images/Louis Vuitton-Platform-UIDesign-Homepage.png') no-repeat;
+	background-size: cover;
+}
+
+
+.header-thumb,
+.header-two .header-thumb,
+.header-three .header-thumb,
+.header-four .header-thumb,
+.header-five .header-thumb,
+.header-abcmarket .header-thumb,
+.header-showerthoughts .header-thumb,
+.header-regimen .header-thumb {
+  padding: 32px 20px 32px 20px !important;
+}
+
+.header-one, .header-two,
+.header-three, .header-four,
+.header-five, .header-abcmarket,
+.header-showerthoughts, .header-regimen {
+  height: 42vh !important;
+  min-height: 420px;
+  padding-top: 90px !important;
+}
+
+/* Portfolio section styles
+/* ========================================== */
+#portfolio {
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+#portfolio img {
+  width: 100%;
+}
+
+#portfolio .portfolio-thumb {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay {
+  background: #141414;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+#portfolio .portfolio-thumb:hover .portfolio-overlay {
+  opacity: 0.9;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
+    text-align: center;
+    padding: 40% 20px 20px;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay .fa {
+    background: #f9f9f9;
+    border-radius: 100px;
+    color: #141414;
+    font-size: 1.3rem;
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 4px;
+}
+
+
+
+/*isotope box css*/
+.iso-box-section {
+    width: 100%;
+}
+
+.iso-box-wrapper {
+    width: 100%;
+    padding: 0;
+    clear: both;
+    position: relative;
+}
+
+.iso-box {
+    position: relative;
+    min-height: 50px;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.iso-box > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.fluid-img {
+    width: 100%;
+    display: block;
+}
+
+/* about section styles
+/* ========================================== */
+#about {
+	padding: 20px 30px 10px 30px;
+}
+
+#about .col-md-4 {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+#about img {
+  padding-bottom: 20px;
+}
+
+#about blockquote {
+  letter-spacing: 2px;
+  margin-top: 20px;
+}
+
+/* blog & single post section styles
+/* ========================================== */
+#blog,
+#single-post {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+#blog .blog-thumb {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+#blog .post-format,
+#single-post .post-format {
+  padding-bottom: 10px;
+}
+
+#blog .post-format span,
+#single-post .post-format span {
+  color: #888;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-right: 10px;
+}
+
+#blog .blog-thumb .btn {
+  border-radius: 0px;
+  padding: 10px 32px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 22px;
+  transition: all 0.4s ease-in-out;
+}
+#blog .blog-thumb .btn:hover {
+  background: #111112;
+  border-color: transparent;
+  color: #ffffff;
+}
+
+#single-post blockquote {
+  margin-top: 32px;
+  letter-spacing: 2px;
+}
+
+.post-image {
+	margin: 25px 0px;
+}
+
+.post-screen {
+	display: block;
+	margin: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 500px;
+	width: auto;
+	height: auto;
+}
+
+
+#body-link   {
+	text-align: center;
+  padding: 30px 0 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+
+}
+
+#body-link li {
+	display: inline-block;
+	margin: 4px;
+}
+
+#body-link li a {
+    color: #666;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 8px 17px;
+    /* margin-right: 2px;
+    margin-left: 2px; */
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+		border-radius: 7px;
+		border: 2px solid #79CCD3;
+}
+
+#body-link li a:active {
+  background: #79CCD3 !important;
+}
+
+#body-link li a:hover,
+#body-link li a:focus {
+  background: #79CCD3;
+  color: #ffffff;
+
+}
+
+img.resize {
+  max-width:60%;
+  max-height:60%;
+}
+
+/* footer section styles
+/* ========================================== */
+footer {
+  background: #CDCDCD;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+
+/* social icon */
+.social-icon {
+  padding: 0;
+  margin: 0;
+}
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+}
+.social-icon li a {
+  border-radius: 100px;
+  border: 1px solid transparent;
+  color: #909090;
+  font-size: 18px;
+  width: 50px;
+  height: 50px;
+  line-height: 48px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+  padding: 0px;
+  margin-top: 14px;
+  margin-right: 8px;
+  margin-left: 8px;
+  position: relative;
+  top: 0px;
+}
+.social-icon li a:hover {
+  background: #ffffff;
+}
+hr {
+width: 100%;
+height: 3px;
+margin-left: auto;
+margin-right: auto;
+background-color:#FDC956;
+border: 0 none;
+margin-top: 100px;
+margin-bottom:100px;
+}
+
+/* Responsive Mobile styles
+/* ========================================== */
+@media (max-width: 980px) {
+
+  .intro-inner {top: 30%;}
+
+  #contact .col-md-4 {
+    padding: 62px 20px 42px 32px;
+  }
+
+  #contact .col-md-4 p {
+    font-size: 12px;
+  }
+
+  #contact #map-canvas {
+    margin-bottom: 60px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .brand {
+    padding-left: 24px;
+  }
+
+  .header-one, .header-two,
+  .header-three, .header-four,
+  .header-five {
+    min-height: 380px;
+	padding-top: 80px !important;
+  }
+
+  #about .col-md-4,
+  #single-project .col-md-3 {
+    padding-bottom: 32px;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+
+  h1 {
+    font-size: 1.3rem;
+  }
+  h3 {
+    font-size: 13px;
+    letter-spacing: 3px;
+  }
+
+  .filter-wrapper {
+    padding: 0px;
+  }
+
+  #contact {
+    padding-bottom: 4rem;
+  }
+
+  #contact .col-md-4 {
+    padding: 32px 20px 22px 62px;
+  }
+  .contact-submit {
+	width: 70%;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .intro-inner {top: 50%;}
+}
