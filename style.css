@@ -325,7 +325,7 @@ nav ul.right {
 }
 
 
-.hover-image-waze div:hover {
+/* .hover-image-waze div:hover {
 	background: #F8F8F8;
 	margin-left: auto;
 	margin-right: auto;
@@ -333,9 +333,8 @@ nav ul.right {
 	padding: 150px 45px 150px 45px;
 	transition: 1s;
 	background: url('./images/Waze-NavigationApp-UIDesign-Homepage-black.png') no-repeat;
-	/* filter: grayscale(.9); */
 	background-size: cover;
-}
+} */
 
 .hover-image-waze div:hover h3 {
 	color: white;
